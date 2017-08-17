@@ -1,0 +1,60 @@
+.contenedor{
+  margin: 0;
+  padding: 0;
+}
+
+.elemento{
+  position: absolute;
+}
+
+#fondo{
+  background-image: url("lab.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+#laboratoria{
+  background-image: url("logo1.png");
+  background-size: cover;
+  width: 90px;
+  height: 30px;
+  left: 85px;
+  top: 15px;
+}
+
+#shape {
+    height: 0;
+    width: 140px;
+    border-bottom: 200px solid #66655e;
+    border-left: 100px solid transparent;
+    right: -65px;
+    top: 0px;
+}
+#lab2{
+  background-image: url("logo2.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  right: 0;
+  top: 160px;
+}
+
+#name{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 100px;
+  height: auto;
+  top: 40px;
+}
+
+#major{
+  text-align: center;
+  font-size: 14px;
+  color: #f9d700;
+  width: 140px;
+  height: auto;
+  top: 100px;
+  right: 20px;
+}
